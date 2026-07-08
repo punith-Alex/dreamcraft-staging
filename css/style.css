@@ -228,3 +228,13 @@ footer a:hover{color:#fff}
 .logo img{height:44px;width:auto;display:block}
 footer .logo img{height:40px}
 @media(max-width:640px){.logo img{height:36px}}
+
+/* ===== Mobile overflow fixes ===== */
+html,body{overflow-x:hidden;max-width:100%}
+@media(max-width:1000px){
+  .float-badge{right:0;top:-16px}
+  .stat-card{left:10px;bottom:-28px}
+  .pricing-visual .stat-card{left:auto;right:10px}
+  .pricing-visual .smart{left:0}
+  .hero-visual,.problem-visual,.pricing-visual{margin-bottom:44px}
+}
