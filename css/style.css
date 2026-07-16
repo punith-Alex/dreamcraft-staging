@@ -238,3 +238,8 @@ html,body{overflow-x:hidden;max-width:100%}
   .pricing-visual .smart{left:0}
   .hero-visual,.problem-visual,.pricing-visual{margin-bottom:44px}
 }
+
+.proj-card-link{display:block;color:inherit}
+.proj-card-link .proj-card{transition:transform .25s}
+.proj-card-link:hover .proj-card{transform:translateY(-4px)}
+.proj-card-link:hover h3{color:var(--teal)}
