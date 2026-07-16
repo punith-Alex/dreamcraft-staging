@@ -243,3 +243,5 @@ html,body{overflow-x:hidden;max-width:100%}
 .proj-card-link .proj-card{transition:transform .25s}
 .proj-card-link:hover .proj-card{transform:translateY(-4px)}
 .proj-card-link:hover h3{color:var(--teal)}
+
+.avatar-initial{width:56px;height:56px;border-radius:50%;background:var(--teal);color:#fff;display:flex;align-items:center;justify-content:center;font-family:'Playfair Display',serif;font-weight:700;font-size:22px;flex:none}
