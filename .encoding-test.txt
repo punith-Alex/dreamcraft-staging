@@ -1,2 +1,5 @@
-X[—]Y
-home — a sage-green
+1:A\B
+2:A\uB
+3:A\u20B
+4:A—B
+5:A\\u2014B
